@@ -4,6 +4,25 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Feature or pull requests are welcome.
 
+## Features
+
+News Aggregator
+
+
+## Categories
+
+- Entertainment
+
+- General
+
+- Health
+
+- Science
+
+- Sports
+
+- Business
+
 ## Available Scripts
 
 In the project directory, you can run:
