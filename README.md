@@ -1,4 +1,7 @@
 # All In One News Aggregator | Postman APIFest 2022
+This project, a NEWS Aggregator App was birthed from the Postman API Fest event as a Team project.
+
+Using an API first approach as Postmanauts recommend, we were able to build an information aggregator platform that puts together updates across different categories by consuming APIs from the newsapi.org platform and beautifully displaying it on a webpage using React.
 
 ![FJpIjn0UYAUBn-n](https://user-images.githubusercontent.com/9114705/151634093-396fd4f0-17a0-4e2a-bd1f-f60257b9ab9c.jpeg)
 
