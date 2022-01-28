@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)  and [hosted on Vercel](https://all-in-one-news.vercel.app/)
 
+[![Vercel Status](https://img.shields.io/static/v1?label=Vercel%20Deploy&message=Success&color=green&style=plastic&logo=vercel)](hhttps://all-in-one-news.vercel.app/)
+
+
 Feature or pull requests are welcome.
 
 ## Features
@@ -23,7 +26,11 @@ News Aggregator
 
 - Business
 
-## Available Scripts
+## Running the Project & Available Scripts
+
+Clone the repository using the `git clone` command with the url appended and install the dependencies using `npm install`
+
+### `npm install`
 
 In the project directory, you can run:
 
