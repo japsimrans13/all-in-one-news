@@ -7,6 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.navbar-mobile-outline {
+  border: 1px solid #f8f9fa;border: 1px solid #f8f9fa;
+  background-image: linear-gradient(to bottom, #f8f9fa, #f8f9fa), linear-gradient(to right, #f8f9fa, #f8f9fa);
+  background-repeat: no-repeat;
+  background-size: 1px 100%, 100% 1px;
+  background-position: 20px 0px, 0px 10px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
