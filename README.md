@@ -1,5 +1,8 @@
 # All In One News Aggregator | Postman APIFest 2022
 
+![FJpIjn0UYAUBn-n](https://user-images.githubusercontent.com/9114705/151634093-396fd4f0-17a0-4e2a-bd1f-f60257b9ab9c.jpeg)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)  and [hosted on Vercel](https://all-in-one-news.vercel.app/)
 
 [![Vercel Status](https://img.shields.io/static/v1?label=Vercel%20Deploy&message=Success&color=green&style=plastic&logo=vercel)](hhttps://all-in-one-news.vercel.app/)
