@@ -44,4 +44,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 
 ### License
-This project is open source and available under the [MIT License](https://github.com/favourch/favourchukwuedo.com/blob/master/LICENSE).
+This project is open source and available under the [MIT License](hhttps://github.com/japsimrans13/all-in-one-news/blob/master/LICENSE).
