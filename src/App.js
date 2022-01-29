@@ -4,7 +4,11 @@ import './App.css';
  import React, { Component } from 'react'
 import NavBar from './components/NavBar';
 import News from './components/News';
- 
+import About from './components/About';
+
+
+
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -28,6 +32,7 @@ export default class App extends Component {
         <Route exact path="/science"> <News key="science" country="in" pageSize={6} category="science"/></Route>
         <Route exact path="/entertainment"><News  key="entertainment" country="in" pageSize={6} category="entertainment"/></Route>
         <Route exact path="/health"><News  key="health" country="in" pageSize={6} category="health"/></Route>
+        <Route exact path="/About"><About /></Route>
         
           
             
