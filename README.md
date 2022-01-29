@@ -1,8 +1,42 @@
-# Getting Started with Create React App
+# All In One News Aggregator | Postman APIFest 2022
+This project, a NEWS Aggregator App was birthed from the Postman API Fest event as a Team project.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Using an API first approach as Postmanauts recommend, we were able to build an information aggregator platform that puts together updates across different categories by consuming APIs from the newsapi.org platform and beautifully displaying it on a webpage using React.
 
-## Available Scripts
+![FJpIjn0UYAUBn-n](https://user-images.githubusercontent.com/9114705/151634093-396fd4f0-17a0-4e2a-bd1f-f60257b9ab9c.jpeg)
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)  and [hosted on Vercel](https://all-in-one-news.vercel.app/)
+
+[![Vercel Status](https://img.shields.io/static/v1?label=Vercel%20Deploy&message=Success&color=green&style=plastic&logo=vercel)](hhttps://all-in-one-news.vercel.app/)
+
+
+Feature or pull requests are welcome.
+
+## Features
+
+News Aggregator
+
+
+## Categories
+
+- Entertainment
+
+- General
+
+- Health
+
+- Science
+
+- Sports
+
+- Business
+
+## Running the Project & Available Scripts
+
+Clone the repository using the `git clone` command with the url appended and install the dependencies using `npm install`
+
+### `npm install`
 
 In the project directory, you can run:
 
@@ -39,32 +73,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### License
+This project is open source and available under the [MIT License](hhttps://github.com/japsimrans13/all-in-one-news/blob/master/LICENSE).
