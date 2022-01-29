@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import { Link } from "react-router-dom";
 
 import moon from './moon.png'
-import sun from './sun.png'
+// import sun from './sun.png'
 
 
 function darktheme() {
@@ -24,7 +24,7 @@ export class NavBar extends Component {
 
         return (
             <div>
-                <nav className="navbar navbar-expand-lg  " >
+                <nav className="navbar navbar-expand-lg navbar-light" >
   <div className="container-fluid ">
     <Link className="navbar-brand "  to="/" >Breaking News</Link>
     <img  src={moon} alt="Moon" onClick={darktheme} className='darkimg2'  height={45} width={45} style={{cursor:"pointer",marginLeft:"30px"}}/>

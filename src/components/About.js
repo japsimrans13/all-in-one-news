@@ -6,7 +6,7 @@ export class About extends Component {
         return (
             <>
             <div className="text-center5">
-                <h2 className="text-center2 "  >News Point - About </h2>
+                <h2 className="text-center2 "  >All In One News Aggregator | Postman API Fest 2022 </h2>
 </div>
                 <div className="text-center10">
                 <p className='text-center3'>

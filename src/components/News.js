@@ -34,7 +34,8 @@ export class News extends Component {
     }
    async componentDidMount(){
         let url=`
-        https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=1e1e4f04330a494b8a8da5572434153b&pageSize=${this.props.pageSize}`;
+        https://japsimran-news-api.herokuapp.com/news?country=${this.props.country}&category=${this.props.category}&page=${this.state.page-1}&pageSize=${this.props.pageSize}`;
+        console.log(url)
         this.setState({loading:true});
         let data= await fetch(url);
         let parsedData= await data.json();
@@ -73,7 +74,7 @@ export class News extends Component {
 // }
 // }
 async updateNews(){
-    let url=`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=1e1e4f04330a494b8a8da5572434153b&page=${this.state.page-1}&pageSize=${this.props.pageSize}`;
+    let url=`https://japsimran-news-api.herokuapp.com/news?country=${this.props.country}&category=${this.props.category}&page=${this.state.page-1}&pageSize=${this.props.pageSize}`;
        this.setState({loading:true});
        let data= await fetch(url);
        let parsedData= await data.json();
@@ -87,7 +88,8 @@ async updateNews(){
 fetchMoreData = async () => {
 
   this.setState({page:this.state.page+1})
-  let url=`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=1e1e4f04330a494b8a8da5572434153b&page=${this.state.page-1}&pageSize=${this.props.pageSize}`;
+  let url=`https://japsimran-news-api.herokuapp.com/news?country=${this.props.country}&category=${this.props.category}&page=${this.state.page-1}&pageSize=${this.props.pageSize}`;
+  console.log(url);
   this.setState({loading:true});
   let data= await fetch(url);
   let parsedData= await data.json();
@@ -102,7 +104,7 @@ fetchMoreData = async () => {
     render() {
         return (
             <>
-                <div className="text-center1"><h2 className="text-center my-3 mb-4"  >News Point - Headlines</h2></div>
+                <div className="text-center1"><h2 className="text-center my-3 mb-4"  >All In One News Aggregator | Postman API Fest 2022</h2></div>
                     
 
                 <InfiniteScroll

@@ -17,7 +17,7 @@
 
 .dark-theme {
     
-    --navgreen: #1a0411;
+    /* --navgreen: #1165b4; */
     --navcategory:WHITE;
     --buttonbackground:rgb(3, 29, 51);
     --searchbtn:ORANGE;
@@ -32,7 +32,7 @@
 
 .text-center5{
     margin: auto;
-    width: 28%;
+    width: 70%;
     margin-top: 75px;
 }
 .text-center2{
@@ -89,7 +89,7 @@
 .text-center1{
     
     margin:auto;
-    width: 50%;
+    width: 90%;
     
     margin-top: 63px;
     margin-bottom: 18px;
@@ -102,7 +102,7 @@
 
 .text-center{
     font-weight: 650;
-    font-size: 45px;
+    font-size: 35px;
     color: var(--headline);
     
     line-height: 80px;
@@ -173,7 +173,7 @@ font-weight: 600;
         display: none;
     }
     .text-center1{
-        width: 50%;
+        width: 90%;
     }
 }
 
@@ -182,7 +182,19 @@ font-weight: 600;
         width: 90%;
     }
         .text-center{
-            font-size: 45px;
+            font-size: 25px;
             
         }
+       
+}
+@media (max-width: 726px) and (min-width: 300px){
+    .text-center5{
+        width: 90%;
+        margin-left: 30px;
+    }
+    .text-center10{
+        margin-top: 25px;
+        margin-left:25px;
+        margin-right:25px;
+    }
 }
