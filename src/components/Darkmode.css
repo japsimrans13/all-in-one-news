@@ -58,7 +58,7 @@
     color: black;
 } */
 .navbar{
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     z-index: 2;
 }
@@ -180,30 +180,16 @@ font-weight: 600;
 @media (max-width: 546px) and (min-width: 300px){
     .text-center1{
         width: 90%;
+        
+        margin-top: 35px;
     }
-        .text-center{
-            font-size: 25px;
-            line-height: 20px;
-            
-        }
+    .text-center{
+        width: 90%;
+        line-height: 80px;
+    }
        
 }
 @media (max-width: 726px) and (min-width: 300px){
-    .text-center5{
-        width: 90%;
-        margin-left: 30px;
-    }
-    .text-center10{
-        margin-top: 25px;
-        margin-left:25px;
-        margin-right:25px;
-    }
-}
-@media (max-width: 1500px) and (min-width: 726px){
-    .navbar{
-        margin: block;
-        width: 100%;
-    }
     .text-center5{
         width: 90%;
         margin-left: 30px;
